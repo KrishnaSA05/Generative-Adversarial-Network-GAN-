@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+.env
+outputs/checkpoints/
+outputs/generated_images/
+outputs/logs/
+data/
+.DS_Store

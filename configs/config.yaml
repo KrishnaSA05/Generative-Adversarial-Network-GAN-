@@ -1,0 +1,29 @@
+# ============================================================
+#  Radar View Generator (DCGAN) — Central Configuration File
+# ============================================================
+
+data:
+  dataset_path: "data/Dataset_19200_train_4800_test.npz"
+  image_size: [64, 64]
+  original_size: [100, 160]
+  channels: 1
+  batch_size: 100
+
+model:
+  latent_dim: 100
+  generator_features: 128
+  discriminator_features: 32
+
+training:
+  epochs: 30
+  lr: 0.0002
+  beta1: 0.5
+  beta2: 0.999
+  save_every: 5
+  sample_every: 5
+  num_samples: 25
+
+paths:
+  checkpoints: "outputs/checkpoints"
+  generated_images: "outputs/generated_images"
+  logs: "outputs/logs"
