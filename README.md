@@ -350,29 +350,14 @@ docker run -p 8501:8501 radar-dcgan
 
 ---
 
-## 📄 References
-
-1. Radford, A., Metz, L., & Chintala, S. (2015).
-   *Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks.*
-   [arXiv:1511.06434](https://arxiv.org/abs/1511.06434)
-
-2. Mirza, M., & Osindero, S. (2014).
-   *Conditional Generative Adversarial Nets.*
-   [arXiv:1411.1784](https://arxiv.org/abs/1411.1784)
-
-3. Goodfellow, I., et al. (2014).
-   *Generative Adversarial Nets.* NeurIPS 2014.
-
----
-
 ## 👤 Author
 
 <div align="center">
 
 **Krishna Sanjay Ambekar**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077b5?logo=linkedin)](https://linkedin.com/in/krishna-ambekar)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github)](https://github.com/krishna-ambekar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077b5?logo=linkedin)](https://www.linkedin.com/in/krishna-ambekar-b4a2641b2)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github)](https://github.com/KrishnaSA05)
 
 *"This project demonstrates not just the ability to implement deep learning models,
 but to conduct structured experiments, analyse results scientifically,
