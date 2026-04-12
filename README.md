@@ -228,7 +228,7 @@ training. The model has learned the general distribution of radar signatures acr
 classes, producing structurally diverse patterns including horizontal streaks, vertical
 columns, and diffuse blob signatures — without any class-level control.
 
-![DCGAN Generated Images](DC-GAN.jpg)
+![DCGAN Generated Images](output_gan_generated/DC_GAN.png)
 
 > **Observation:** By Epoch 30, the vanilla DCGAN generates sharp, realistic radar
 > patterns with clear structural diversity. The variety of shapes (horizontal blobs,
@@ -245,7 +245,7 @@ by conditioning the model on a different class label. Using the **same architect
 and training duration**, the Conditional DCGAN learns to produce visually and
 physically distinct radar signatures per class — entirely on demand.
 
-![Conditional DCGAN Class-Specific Results](conditional-gan.jpg)
+![Conditional DCGAN Class-Specific Results](output_gan_generated/conditional gan.png)
 
 **Per-class visual analysis:**
 
