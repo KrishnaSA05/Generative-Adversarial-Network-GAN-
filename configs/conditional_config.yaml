@@ -1,5 +1,5 @@
 # ============================================================
-#  Radar View Generator — Vanilla DCGAN Config
+#  Radar View Generator — Conditional DCGAN Config
 # ============================================================
 data:
   dataset_path: "data/Dataset_19200_train_4800_test.npz"
@@ -7,9 +7,16 @@ data:
   original_size: [100, 160]
   channels:     1
   batch_size:   100
+  num_classes:  4
+  class_names:
+    0: "Pedestrian"
+    1: "Electric Scooter"
+    2: "Car"
+    3: "Background"
 
 model:
   latent_dim:            100
+  embed_dim:             50      # class embedding dimension
   generator_features:    128
   discriminator_features: 32
 
@@ -20,9 +27,9 @@ training:
   beta2:        0.999
   save_every:   5
   sample_every: 5
-  num_samples:  25
+  num_samples:  25               # per-class sample grid size
 
 paths:
-  checkpoints:      "outputs/dcgan/checkpoints"
-  generated_images: "outputs/dcgan/generated_images"
-  logs:             "outputs/dcgan/logs"
+  checkpoints:      "outputs/cdcgan/checkpoints"
+  generated_images: "outputs/cdcgan/generated_images"
+  logs:             "outputs/cdcgan/logs"
