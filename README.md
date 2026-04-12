@@ -348,18 +348,6 @@ docker run -p 8501:8501 radar-dcgan
 
 ---
 
-## 📈 Recommendations for Future Work
-
-- [ ] **Label smoothing** — use `valid=0.9`, `fake=0.1` to prevent D overconfidence
-- [ ] **Train 50–100 epochs** — G_Loss still descending at Epoch 30
-- [ ] **Separate LR for D and G** — `lr_D=0.0001`, `lr_G=0.0002`
-- [ ] **WGAN-GP loss** — gradient penalty for more stable training
-- [ ] **FID score** (Fréchet Inception Distance) — quantitative image quality metric
-- [ ] **Class-specific FID** — evaluate quality per radar target class independently
-- [ ] **ONNX export** — deploy Generator on edge radar processing hardware
-
----
-
 ## 👤 Author
 
 <div align="center">
