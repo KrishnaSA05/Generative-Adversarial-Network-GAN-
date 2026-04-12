@@ -245,7 +245,7 @@ by conditioning the model on a different class label. Using the **same architect
 and training duration**, the Conditional DCGAN learns to produce visually and
 physically distinct radar signatures per class — entirely on demand.
 
-![Conditional DCGAN Class-Specific Results](output_gan_generated\conditional_gan.png)
+![Conditional DCGAN Class-Specific Results](output_gan_generated/conditional_gan.png)
 
 **Per-class visual analysis:**
 
